@@ -12,12 +12,13 @@
   <header class="flexHeader">
     <div class="menu" id="">
       <div class="menu-wrap">
-        <img src="./img/logo2.png" class="logo-img" alt="Logo">
+        <a href="./index.html"><img src="./img/logo2.png" class="logo-img" alt="Logo"></a>
         <input type="checkbox" id="checkbox">
         <nav>
           <ul>
             <li><a href="./index.html">HOME</a></li>
-            <li><a href="#">CATEGORIAS</a></li>
+            <li><a href="#categoria">CATEGORIAS</a></li>
+            <li><a href="./contacto.html">CONTACTO</a></li>
             <li><a href="./registro.html">REGISTRARSE</a></li>
             <li><a href="./login.html">INICIAR SESION</a></li>
           </ul>
@@ -55,14 +56,61 @@
           </ul>
         </div>
         <div class="galeria">
-          <div class="contenedorGaleria">
-            <div class="cuadroGaleria">
-              <img src="./img/PUBLICIDAD1.png">
-              <span>OFERTAS</span>
+          <div class="csslider1 autoplay cs_handle">
+            <input name="cs_anchor1" id="cs_slide1_0" type="radio" class="cs_anchor slide">
+            <input name="cs_anchor1" id="cs_slide1_1" type="radio" class="cs_anchor slide">
+            <input name="cs_anchor1" id="cs_slide1_2" type="radio" class="cs_anchor slide">
+            <input name="cs_anchor1" id="cs_play1" type="radio" class="cs_anchor" checked="">
+            <input name="cs_anchor1" id="cs_pause1_0" type="radio" class="cs_anchor pause">
+            <input name="cs_anchor1" id="cs_pause1_1" type="radio" class="cs_anchor pause">
+            <input name="cs_anchor1" id="cs_pause1_2" type="radio" class="cs_anchor pause">
+          
+            <ul>
+                <div>
+                    <img src="./img/PUBLICIDAD1.png" style="width: 100%;">
+                </div>
+                <li class="num0 img">
+                    <a href="#" target="_blank">
+                        <img src="./img/PUBLICIDAD2.png" alt="" title="">
+                    </a>
+                </li>
+                <li class="num1 img">
+                    <a href="#" target="_blank">
+                        <img src="./img/PUBLICIDAD1.png" alt="" title="">
+                    </a>
+                </li>
+                <li class="num2 img">
+                    <a href="#" target="_blank">
+                        <img src="./img/PUBLICIDAD2.png" alt="" title="">
+                    </a>
+                </li>
+            </ul>
+          
+              <div class="cs_play_pause">
+                  <label class="cs_play" for="cs_play1">Play</label>
+              </div>
+          
+            <div class="cs_arrowprev">
+                    <label class="num0" for="cs_slide1_0"><span><i></i></span></label>
+                    <label class="num1" for="cs_slide1_1"><span><i></i></span></label>
+                    <label class="num2" for="cs_slide1_2"><span><i></i></span></label>
             </div>
-            <div class="cuadroGaleria">
-              <img src="./img/PUBLICIDAD2.png">
-              <span>LIMITADOS</span>
+            <div class="cs_arrownext">
+                    <label class="num0" for="cs_slide1_0"><span><i></i></span></label>
+                    <label class="num1" for="cs_slide1_1"><span><i></i></span></label>
+                    <label class="num2" for="cs_slide1_2"><span><i></i></span></label>
+            </div>
+          
+            <div class="cs_bullets">
+                    <label class="num0" for="cs_slide1_0">
+                        <span class="cs_point"></span>
+                    </label>
+                    <label class="num1" for="cs_slide1_1">
+                        <span class="cs_point"></span>
+                    </label>
+                    <label class="num2" for="cs_slide1_2">
+                        <span class="cs_point"></span>
+                    </label>
             </div>
           </div>
         </div>
